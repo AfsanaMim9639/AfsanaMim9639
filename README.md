@@ -18,7 +18,7 @@ I'm a passionate developer specializing in **Full-Stack Development**, **AI Auto
 - 🌱 Learning **Go, PyTorch, TensorFlow** and advanced **Deep Learning**
 - 👯 Open to collaborate on **Open Source Projects**
 - 💬 Ask me about **JavaScript, React, Node.js, Python, AI/ML**
-- 📫 Reach me: **afsanamim@example.com**
+- 📫 Reach me: **afsanamim813@gmail.com**
 - ⚡ Fun fact: I love turning coffee into code ☕💻
 
 ---
