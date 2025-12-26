@@ -110,15 +110,11 @@ I'm a passionate developer specializing in **Full-Stack Development**, **AI Auto
 
 ## 🔥 Current Focus
 
-```javascript
-const afsanaMim = {
-    currentlyLearning: ["Go Programming", "PyTorch", "Deep Learning"],
-    workingOn: ["AI Automation", "Full-Stack Applications", "ML Models"],
-    lookingFor: "Collaboration on Open Source Projects",
-    askMeAbout: ["Web Dev", "AI/ML", "Automation", "APIs"],
-    funFact: "I debug with console.log() more than I'd like to admit 😄"
-};
-```
+- 📚 **Currently Learning:** Go Programming, PyTorch, Deep Learning
+- 🚀 **Working On:** AI Automation, Full-Stack Applications, ML Models
+- 🤝 **Looking For:** Collaboration on Open Source Projects
+- 💬 **Ask Me About:** Web Dev, AI/ML, Automation, APIs
+- 🎯 **Fun Fact:** I debug with console.log() more than I'd like to admit 😄
 
 ---
 
