@@ -1,0 +1,95 @@
+<svg width="1000" height="550" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1">
+        <animate attributeName="stop-color" values="#00D9FF;#014c75;#00D9FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#014c75;stop-opacity:1">
+        <animate attributeName="stop-color" values="#014c75;#00D9FF;#014c75" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:1">
+        <animate attributeName="stop-color" values="#00D9FF;#014c75;#00D9FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001927;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#00111a;stop-opacity:0.9"/>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#014c75;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="3" y="3" width="994" height="544" rx="20" fill="url(#bgGradient)"/>
+  
+  <!-- Animated Border -->
+  <rect x="3" y="3" width="994" height="544" rx="20" fill="none" stroke="url(#borderGradient)" stroke-width="4">
+    <animate attributeName="stroke-dasharray" values="0 3000; 3000 0; 0 3000" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Decorative Corner Elements -->
+  <circle cx="30" cy="30" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="970" cy="30" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="520" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="970" cy="520" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  
+  <!-- Title Icon -->
+  <g transform="translate(40, 40)">
+    <rect x="0" y="5" width="30" height="22" rx="2" fill="#00D9FF" opacity="0.3"/>
+    <rect x="2" y="7" width="26" height="18" rx="1" fill="#014c75"/>
+    <line x1="6" y1="12" x2="14" y2="12" stroke="#00D9FF" stroke-width="2">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="6" y1="17" x2="18" y2="17" stroke="#00D9FF" stroke-width="2">
+      <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="6" y1="22" x2="12" y2="22" stroke="#00D9FF" stroke-width="2">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Title -->
+  <text x="85" y="60" font-family="'Arial Black', sans-serif" font-size="36" font-weight="bold" fill="url(#titleGradient)" filter="url(#glow)">
+    About Me
+  </text>
+  
+  <!-- Divider Line -->
+  <line x1="40" y1="85" x2="960" y2="85" stroke="#00D9FF" stroke-width="2" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Content Text -->
+  <foreignObject x="40" y="110" width="920" height="420">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 18px; color: #ffffff; line-height: 1.8; text-align: justify;">
+      <p style="margin-bottom: 20px;">
+        Hi! I'm <strong style="color: #00D9FF;">Afsana Mim</strong>, a passionate <strong style="color: #00D9FF;">Full-Stack Developer</strong> specializing in the <strong style="color: #00D9FF;">MERN Stack</strong> with expertise in building modern, scalable web applications. I work extensively with <strong style="color: #00D9FF;">React</strong>, <strong style="color: #00D9FF;">Next.js</strong>, and <strong style="color: #00D9FF;">Node.js</strong> to create seamless user experiences, coupled with robust backend systems using <strong style="color: #00D9FF;">Express.js</strong>. My database expertise spans both <strong style="color: #00D9FF;">MongoDB</strong> and <strong style="color: #00D9FF;">PostgreSQL</strong>, allowing me to design efficient data architectures for diverse applications.
+      </p>
+      <p style="margin-bottom: 20px;">
+        I'm deeply committed to <strong style="color: #00D9FF;">responsive design</strong>, ensuring every application I build works flawlessly across all devices and screen sizes using <strong style="color: #00D9FF;">Tailwind CSS</strong> and modern CSS techniques. Currently, I'm expanding my horizons into <strong style="color: #00D9FF;">Artificial Intelligence</strong> and <strong style="color: #00D9FF;">Data Science</strong>, exploring <strong style="color: #00D9FF;">PyTorch</strong> and <strong style="color: #00D9FF;">TensorFlow</strong> to integrate intelligent features into web applications.
+      </p>
+      <p style="margin-bottom: 0;">
+        My ultimate goal is to become a <strong style="color: #00D9FF;">Software Developer at a Big Tech Company</strong>, where I can leverage my full-stack expertise and contribute to innovative solutions that impact millions of users worldwide.
+      </p>
+    </div>
+  </foreignObject>
+</svg>
