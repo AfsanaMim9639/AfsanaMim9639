@@ -1,0 +1,199 @@
+<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1">
+        <animate attributeName="stop-color" values="#00D9FF;#014c75;#00D9FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" style="stop-color:#014c75;stop-opacity:1">
+        <animate attributeName="stop-color" values="#014c75;#00D9FF;#014c75" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#00D9FF;stop-opacity:1">
+        <animate attributeName="stop-color" values="#00D9FF;#014c75;#00D9FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#001927;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#00111a;stop-opacity:0.9"/>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#014c75;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="3" y="3" width="994" height="494" rx="20" fill="url(#bgGradient)"/>
+  
+  <!-- Animated Border -->
+  <rect x="3" y="3" width="994" height="494" rx="20" fill="none" stroke="url(#borderGradient)" stroke-width="4">
+    <animate attributeName="stroke-dasharray" values="0 3000; 3000 0; 0 3000" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Decorative Corner Elements -->
+  <circle cx="30" cy="30" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="970" cy="30" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="470" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="970" cy="470" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+  
+  <!-- Title Icon - Rocket -->
+  <g transform="translate(40, 35)">
+    <path d="M15,5 L15,25 L10,30 L10,22 L7,25 L7,18 L10,15 L10,5 Z" fill="#00D9FF" opacity="0.3"/>
+    <path d="M15,5 L15,25 L20,30 L20,22 L23,25 L23,18 L20,15 L20,5 Z" fill="#00D9FF" opacity="0.3"/>
+    <ellipse cx="15" cy="8" rx="4" ry="5" fill="#014c75"/>
+    <circle cx="15" cy="8" r="2" fill="#00D9FF">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Flame -->
+    <path d="M10,30 Q15,35 20,30" fill="#FF6B6B" opacity="0.7">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="0.8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="scale" values="1,1; 1.1,0.9; 1,1" dur="0.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Title -->
+  <text x="85" y="60" font-family="'Arial Black', sans-serif" font-size="36" font-weight="bold" fill="url(#titleGradient)" filter="url(#glow)">
+    Current Activities
+  </text>
+  
+  <!-- Divider Line -->
+  <line x1="40" y1="85" x2="960" y2="85" stroke="#00D9FF" stroke-width="2" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Activity Items with Custom Bullet Points -->
+  
+  <!-- Activity 1 -->
+  <g transform="translate(60, 120)">
+    <!-- Outer Circle -->
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Inner Circle -->
+    <circle cx="0" cy="0" r="5" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Arrow/Triangle -->
+    <path d="M -2,-2 L 4,0 L -2,2 Z" fill="#ffffff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <foreignObject x="90" y="105" width="890" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 19px; color: #ffffff;">
+      <strong style="color: #00D9FF;">Exploring Next.js</strong> for server-side rendering and static site generation
+    </div>
+  </foreignObject>
+  
+  <!-- Activity 2 -->
+  <g transform="translate(60, 195)">
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+    </circle>
+    <circle cx="0" cy="0" r="5" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+    </circle>
+    <path d="M -2,-2 L 4,0 L -2,2 Z" fill="#ffffff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" begin="0.4s"/>
+    </path>
+  </g>
+  <foreignObject x="90" y="180" width="890" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 19px; color: #ffffff;">
+      <strong style="color: #00D9FF;">Working on a Tourism Website</strong> with advanced booking features
+    </div>
+  </foreignObject>
+  
+  <!-- Activity 3 -->
+  <g transform="translate(60, 270)">
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+    </circle>
+    <circle cx="0" cy="0" r="5" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+    </circle>
+    <path d="M -2,-2 L 4,0 L -2,2 Z" fill="#ffffff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" begin="0.8s"/>
+    </path>
+  </g>
+  <foreignObject x="90" y="255" width="890" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 19px; color: #ffffff;">
+      <strong style="color: #00D9FF;">Learning Node.js deeply</strong> to build robust backend systems
+    </div>
+  </foreignObject>
+  
+  <!-- Activity 4 -->
+  <g transform="translate(60, 345)">
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+    </circle>
+    <circle cx="0" cy="0" r="5" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+    </circle>
+    <path d="M -2,-2 L 4,0 L -2,2 Z" fill="#ffffff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+    </path>
+  </g>
+  <foreignObject x="90" y="330" width="890" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 19px; color: #ffffff;">
+      <strong style="color: #00D9FF;">Diving into PyTorch, TensorFlow</strong> and Deep Learning concepts
+    </div>
+  </foreignObject>
+  
+  <!-- Activity 5 -->
+  <g transform="translate(60, 395)">
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+    </circle>
+    <circle cx="0" cy="0" r="5" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+    </circle>
+    <path d="M -2,-2 L 4,0 L -2,2 Z" fill="#ffffff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" begin="1.6s"/>
+    </path>
+  </g>
+  <foreignObject x="90" y="380" width="890" height="40">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 19px; color: #ffffff;">
+      <strong style="color: #00D9FF;">Learning DevOps</strong> practices and CI/CD pipelines for seamless deployment
+    </div>
+  </foreignObject>
+  
+  <!-- Activity 6 -->
+  <g transform="translate(60, 445)">
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="10;12;10" dur="2s" repeatCount="indefinite" begin="2s"/>
+      <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <circle cx="0" cy="0" r="5" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="2s"/>
+    </circle>
+    <path d="M -2,-2 L 4,0 L -2,2 Z" fill="#ffffff">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite" begin="2s"/>
+    </path>
+  </g>
+  <foreignObject x="90" y="430" width="890" height="50">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 19px; color: #ffffff;">
+      <strong style="color: #00D9FF;">Contributing to Open Source Projects</strong> to give back to the community
+    </div>
+  </foreignObject>
+</svg>
