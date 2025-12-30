@@ -7,10 +7,7 @@
 
 ---
 
-## 👨‍💻 About Me
-
-Hi! I'm **Afsana Mim**, a passionate **Full-Stack Developer** specializing in the **MERN Stack** with a growing interest in **Artificial Intelligence** and **Data Science**. I love building scalable, user-friendly web applications and exploring cutting-edge technologies. My goal is to become a **Software Developer at a Big Tech Company** and contribute to innovative solutions that make a difference.
-
+![About Me](about-me-section.svg)
 ---
 
 ## 🚀 Current Activities
