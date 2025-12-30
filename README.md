@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](Afsana Mim - Animated Banner - Google Chrome 2025-12-31 04-59-06.gif)
+![Banner](bannar.svg)
 
 </div>
 
