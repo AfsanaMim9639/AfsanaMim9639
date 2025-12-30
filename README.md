@@ -1,11 +1,8 @@
 <div align="center">
-
-# Hi there, I'm Afsana Mim 👋
-
-### Software Developer | AI Enthusiast | Full-Stack Engineer
-
+Show Image
+Hi there, I'm Afsana Mim 👋
+Software Developer | AI Enthusiast | Full-Stack Engineer
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;AI+%26+Machine+Learning+Explorer;Building+Innovative+Solutions;Always+Learning+New+Technologies" alt="Typing SVG" />
-
 </div>
 
 ---
