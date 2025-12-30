@@ -1,6 +1,6 @@
 <div align="center">
 
-![Banner](bannar.svg)
+![Banner](banner.svg)
 
 </div>
 
