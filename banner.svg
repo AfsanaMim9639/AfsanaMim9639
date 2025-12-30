@@ -1,0 +1,93 @@
+<svg width="1400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#014c75;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#013b5b;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#012a41;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#001927;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00111a;stop-opacity:1" />
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); opacity: 0.3; }
+        50% { transform: translateY(-20px); opacity: 0.6; }
+      }
+      
+      @keyframes glow {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+      }
+      
+      @keyframes typing {
+        0%, 100% { opacity: 0; }
+        10%, 90% { opacity: 1; }
+      }
+      
+      .particle { animation: float 6s ease-in-out infinite; }
+      .particle:nth-child(2) { animation-delay: 1s; }
+      .particle:nth-child(3) { animation-delay: 2s; }
+      .particle:nth-child(4) { animation-delay: 3s; }
+      .particle:nth-child(5) { animation-delay: 4s; }
+      
+      .main-title { 
+        filter: url(#glow);
+        animation: glow 3s ease-in-out infinite;
+      }
+      
+      .typing-text {
+        animation: typing 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="400" fill="url(#bgGradient)"/>
+  
+  <!-- Animated Particles -->
+  <circle class="particle" cx="200" cy="100" r="3" fill="#00D9FF" opacity="0.4"/>
+  <circle class="particle" cx="400" cy="150" r="4" fill="#00D9FF" opacity="0.4"/>
+  <circle class="particle" cx="800" cy="80" r="3" fill="#00D9FF" opacity="0.4"/>
+  <circle class="particle" cx="1100" cy="120" r="5" fill="#00D9FF" opacity="0.4"/>
+  <circle class="particle" cx="1300" cy="90" r="3" fill="#00D9FF" opacity="0.4"/>
+  
+  <!-- Decorative Lines -->
+  <line x1="0" y1="350" x2="1400" y2="350" stroke="#014c75" stroke-width="2" opacity="0.3"/>
+  <line x1="0" y1="360" x2="1400" y2="360" stroke="#013b5b" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Wave at bottom -->
+  <path d="M0,320 Q350,340 700,320 T1400,320 L1400,400 L0,400 Z" fill="#001927" opacity="0.5"/>
+  <path d="M0,340 Q350,360 700,340 T1400,340 L1400,400 L0,400 Z" fill="#00111a" opacity="0.7"/>
+  
+  <!-- Main Title -->
+  <text class="main-title" x="700" y="180" font-family="'Arial Black', sans-serif" font-size="90" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Afsana Mim
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="700" y="240" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#00D9FF" text-anchor="middle">
+    Full-Stack Developer | MERN Stack Specialist | AI Enthusiast
+  </text>
+  
+  <!-- Typing Animation Texts -->
+  <text class="typing-text1" x="700" y="290" font-family="'Courier New', monospace" font-size="24" fill="#ffffff" text-anchor="middle" opacity="0">
+    MERN Stack Developer
+  </text>
+  <text class="typing-text2" x="700" y="290" font-family="'Courier New', monospace" font-size="24" fill="#ffffff" text-anchor="middle" opacity="0">
+    AI &amp; Data Science Explorer
+  </text>
+  <text class="typing-text3" x="700" y="290" font-family="'Courier New', monospace" font-size="24" fill="#ffffff" text-anchor="middle" opacity="0">
+    Problem Solver
+  </text>
+  <text class="typing-text4" x="700" y="290" font-family="'Courier New', monospace" font-size="24" fill="#ffffff" text-anchor="middle" opacity="0">
+    Building Scalable Solutions
+  </text>
+</svg>
