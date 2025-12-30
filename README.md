@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:014c75,10:014368,20:013b5b,30:01324e,40:012a41,60:002234,80:001927,100:00111a&height=250&section=header&text=Afsana%20Mim&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20MERN%20Stack%20Specialist%20|%20AI%20Enthusiast&descAlignY=55&descSize=20&descAlign=50)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:002234,50:001927,100:00111a&height=250&section=header&text=Afsana%20Mim&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20|%20MERN%20Stack%20Specialist%20|%20AI%20Enthusiast&descAlignY=55&descSize=20&descAlign=50)
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;MERN+Stack+Specialist;AI+%26+Data+Science+Explorer;Building+Scalable+Solutions" alt="Typing SVG" />
 
