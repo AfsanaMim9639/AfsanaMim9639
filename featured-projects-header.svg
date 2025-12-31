@@ -32,13 +32,7 @@
     <animate attributeName="stroke-dasharray" values="0 1000; 1000 0; 0 1000" dur="6s" repeatCount="indefinite"/>
   </rect>
   
-  <!-- Star Icon -->
-  <g transform="translate(25, 32)">
-    <polygon points="15,5 18,13 27,14 21,19 22,28 15,23 8,28 9,19 3,14 12,13" fill="#FFD700">
-      <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="rotate" from="0 15 16" to="360 15 16" dur="20s" repeatCount="indefinite"/>
-    </polygon>
-  </g>
+ 
   
   <!-- Title Text -->
   <text x="70" y="58" font-family="'Arial Black', sans-serif" font-size="32" font-weight="bold" fill="url(#titleGradient)" filter="url(#glow)">
