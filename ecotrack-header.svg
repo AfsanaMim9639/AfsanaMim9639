@@ -1,0 +1,75 @@
+<svg width="900" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1">
+        <animate attributeName="stop-color" values="#00D9FF;#014c75;#00D9FF" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#014c75;stop-opacity:1">
+        <animate attributeName="stop-color" values="#014c75;#00D9FF;#014c75" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.4">
+        <animate attributeName="stop-color" values="#00D9FF;#014c75;#00D9FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#014c75;stop-opacity:0.4">
+        <animate attributeName="stop-color" values="#014c75;#00D9FF;#014c75" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#001927;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#00111a;stop-opacity:0.95"/>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="3" y="3" width="894" height="94" rx="12" fill="url(#bgGradient)"/>
+  
+  <!-- Animated Border -->
+  <rect x="3" y="3" width="894" height="94" rx="12" fill="none" stroke="url(#borderGradient)" stroke-width="3">
+    <animate attributeName="stroke-dasharray" values="0 1900; 1900 0; 0 1900" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Leaf/Plant Icon -->
+  <g transform="translate(40, 30)">
+    <ellipse cx="20" cy="25" rx="12" ry="20" fill="#4CAF50">
+      <animate attributeName="ry" values="20;22;20" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <path d="M20,10 Q25,22 20,35" fill="#2E7D32" stroke="#2E7D32" stroke-width="2"/>
+    <ellipse cx="12" cy="18" rx="8" ry="12" fill="#66BB6A" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="28" cy="18" rx="8" ry="12" fill="#66BB6A" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </ellipse>
+  </g>
+  
+  <!-- Title Text -->
+  <text x="100" y="58" font-family="'Arial Black', sans-serif" font-size="32" font-weight="bold" fill="url(#titleGradient)" filter="url(#glow)">
+    EcoTrack - Sustainable Living Challenge Platform
+  </text>
+  
+  <!-- Decorative Corner Dots -->
+  <circle cx="15" cy="15" r="3" fill="#4CAF50" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="885" cy="15" r="3" fill="#4CAF50" opacity="0.6">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="15" cy="85" r="3" fill="#4CAF50" opacity="0.6">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="885" cy="85" r="3" fill="#4CAF50" opacity="0.6">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+</svg>
