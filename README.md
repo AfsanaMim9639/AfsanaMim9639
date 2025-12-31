@@ -60,15 +60,33 @@
 
 ▸  [TechHub - Technology Platform](https://github.com/AfsanaMim9639/techHub)
 
+---
+
 <div align="center">
 
-<!-- Screenshot first -->
-![CareNest Screenshot](carenest.png)
-
-<!-- Then the SVG card below -->
-![CareNest Details](carenest-card.svg)
+![CareNest Header](carenest-header.svg)
 
 </div>
+
+<div align="center">
+
+**[🔗 Live Demo](https://carenest-sywa.vercel.app/)** | **[📂 Repository](https://github.com/AfsanaMim9639/carenest)**
+
+</div>
+
+<div align="center">
+
+![CareNest Screenshot](carenest.png)
+
+</div>
+
+<div align="center">
+
+![CareNest Info](carenest-info.svg)
+
+</div>
+
+---
 
 ### 📚 eTuition - Online Learning Platform
 [![eTuition](https://github-readme-stats.vercel.app/api/pin/?username=AfsanaMim9639&repo=eTuition-client&theme=tokyonight&border_radius=10&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff&border_color=014c75)](https://github.com/AfsanaMim9639/eTuition-client)
