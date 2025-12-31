@@ -13,7 +13,6 @@
 ---
 ![Skills-icons](skills-icons.svg)
 ---
-
 ![Connect with me](connect-with-me.svg)
 
 <div align="center">
