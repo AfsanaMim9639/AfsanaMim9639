@@ -53,7 +53,7 @@
   
   <!-- Title Text -->
   <text x="110" y="58" font-family="'Arial Black', sans-serif" font-size="32" font-weight="bold" fill="url(#titleGradient)" filter="url(#glow)">
-    CareNest - Healthcare Management Platform
+    CareNest - Healthcare Management 
   </text>
   
   <!-- Decorative Corner Dots -->
