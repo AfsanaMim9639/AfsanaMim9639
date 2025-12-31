@@ -170,12 +170,12 @@
   </foreignObject>
   
   <!-- Bottom Badge -->
-  <g transform="translate(200, 970)">
-    <rect width="600" height="60" rx="30" fill="#00D9FF" opacity="0.15"/>
-    <rect x="2" y="2" width="596" height="56" rx="28" fill="none" stroke="#00D9FF" stroke-width="2">
+  <g transform="translate(200, 980)">
+    <rect width="600" height="50" rx="25" fill="#00D9FF" opacity="0.15"/>
+    <rect x="2" y="2" width="596" height="46" rx="23" fill="none" stroke="#00D9FF" stroke-width="2">
       <animate attributeName="stroke" values="#00D9FF;#014c75;#00D9FF" dur="3s" repeatCount="indefinite"/>
     </rect>
-    <text x="300" y="38" font-family="Arial Black" font-size="15" fill="#00D9FF" text-anchor="middle" font-weight="bold">🎓 Connecting Students &amp; Tutors for Quality Education</text>
+    <text x="300" y="33" font-family="Arial Black" font-size="14" fill="#00D9FF" text-anchor="middle" font-weight="bold">Connecting Students &amp; Tutors for Quality Education</text>
   </g>
   
   <!-- Decorative Corner Elements -->
