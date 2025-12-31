@@ -15,7 +15,9 @@
 ---
 
 <div align="center">
-![Connect with me](connect.svg)
+
+<img src="connect.svg" alt="Connect with me">
+
 </div>
 
 
