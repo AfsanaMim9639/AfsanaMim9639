@@ -1,0 +1,149 @@
+<svg width="1000" height="750" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.4">
+        <animate attributeName="stop-color" values="#00D9FF;#014c75;#00D9FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#014c75;stop-opacity:0.4">
+        <animate attributeName="stop-color" values="#014c75;#00D9FF;#014c75" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#001927;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#00111a;stop-opacity:0.95"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="3" y="3" width="994" height="744" rx="20" fill="url(#bgGradient)"/>
+  
+  <!-- Animated Border -->
+  <rect x="3" y="3" width="994" height="744" rx="20" fill="none" stroke="url(#borderGradient)" stroke-width="3">
+    <animate attributeName="stroke-dasharray" values="0 3500; 3500 0; 0 3500" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Project Overview Section -->
+  <text x="50" y="60" font-family="'Arial Black', sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">📝 Project Overview</text>
+  
+  <foreignObject x="50" y="80" width="900" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; color: #ffffff; line-height: 1.8;">
+      CareNest is a comprehensive healthcare management platform connecting users with essential caregiving services including baby care, elderly care, and sick patient care. Features dynamic booking, location-based services, secure authentication, and automated email notifications.
+    </div>
+  </foreignObject>
+  
+  <!-- Technologies Section -->
+  <text x="50" y="240" font-family="'Arial Black', sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">💻 Technologies Used</text>
+  
+  <foreignObject x="50" y="260" width="900" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; color: #ffffff; line-height: 1.8;">
+      <strong style="color: #00D9FF;">Frontend:</strong> Next.js 14, React, Tailwind CSS<br/>
+      <strong style="color: #00D9FF;">Backend:</strong> Node.js, Next.js API Routes<br/>
+      <strong style="color: #00D9FF;">Database:</strong> MongoDB, Mongoose | <strong style="color: #00D9FF;">Auth:</strong> JWT, bcrypt | <strong style="color: #00D9FF;">Payment:</strong> Stripe
+    </div>
+  </foreignObject>
+  
+  <!-- Key Features Section -->
+  <text x="50" y="380" font-family="'Arial Black', sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">🚀 Key Features</text>
+  
+  <!-- Feature 1 -->
+  <g transform="translate(70, 410)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="90" y="415" font-family="Arial" font-size="16" fill="#ffffff">
+    Dynamic Service Booking with multi-step process and real-time cost calculation
+  </text>
+  
+  <!-- Feature 2 -->
+  <g transform="translate(70, 450)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+  </g>
+  <text x="90" y="455" font-family="Arial" font-size="16" fill="#ffffff">
+    Location-Based Services covering divisions, districts, and specific areas
+  </text>
+  
+  <!-- Feature 3 -->
+  <g transform="translate(70, 490)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+  </g>
+  <text x="90" y="495" font-family="Arial" font-size="16" fill="#ffffff">
+    Secure JWT Authentication with NID verification and password validation
+  </text>
+  
+  <!-- Feature 4 -->
+  <g transform="translate(70, 530)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+    </circle>
+  </g>
+  <text x="90" y="535" font-family="Arial" font-size="16" fill="#ffffff">
+    Automated Email Notifications with invoice generation on booking confirmation
+  </text>
+  
+  <!-- Feature 5 -->
+  <g transform="translate(70, 570)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+    </circle>
+  </g>
+  <text x="90" y="575" font-family="Arial" font-size="16" fill="#ffffff">
+    SEO Optimized with metadata implementation for better search visibility
+  </text>
+  
+  <!-- Feature 6 -->
+  <g transform="translate(70, 610)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+  </g>
+  <text x="90" y="615" font-family="Arial" font-size="16" fill="#ffffff">
+    Stripe Payment Integration for secure transactions (Optional feature)
+  </text>
+  
+  <!-- Bottom Badge -->
+  <g transform="translate(350, 680)">
+    <rect width="300" height="50" rx="25" fill="#00D9FF" opacity="0.15"/>
+    <rect x="2" y="2" width="296" height="46" rx="23" fill="none" stroke="#00D9FF" stroke-width="2">
+      <animate attributeName="stroke" values="#00D9FF;#014c75;#00D9FF" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="150" y="33" font-family="Arial Black" font-size="16" fill="#00D9FF" text-anchor="middle" font-weight="bold">Next.js • MongoDB • Vercel</text>
+  </g>
+  
+  <!-- Decorative Corner Elements -->
+  <circle cx="20" cy="20" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="20" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="20" cy="730" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="980" cy="730" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+</svg>
