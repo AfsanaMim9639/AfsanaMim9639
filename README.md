@@ -16,11 +16,15 @@
 [![LinkedIn](connect-with-me.svg#linkedin)](your-linkedin-url)
 ---
 
-## 📊 GitHub Statistics
+<div align="center">
+
+![GitHub Stats Header](github-stats-header.svg)
+
+</div>
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AfsanaMim9639&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_radius=10&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff&border_color=014c75"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AfsanaMim9639&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&border_radius=10&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff&border_color=014c75&custom_title=GitHub%20Stats%20-%20754%20Contributions"/>
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AfsanaMim9639&layout=compact&langs_count=8&theme=tokyonight&border_radius=10&bg_color=0D1117&title_color=00D9FF&text_color=ffffff&border_color=014c75"/>
 
@@ -34,7 +38,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AfsanaMim9639&bg_color=0d1117&color=00d9ff&line=014c75&point=ffffff&area=true&hide_border=false&border_color=014c75&custom_title=Contribution%20Graph" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AfsanaMim9639&bg_color=0d1117&color=00d9ff&line=014c75&point=ffffff&area=true&hide_border=false&border_color=014c75&custom_title=Contribution%20Graph%20-%20754%20Total%20Contributions" alt="Contribution Graph"/>
 
 </div>
 
