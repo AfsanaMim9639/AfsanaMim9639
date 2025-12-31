@@ -42,7 +42,14 @@
 
 </div>
 ---
-## 🚀 Featured Projects
+
+<div align="center">
+
+![Featured Projects](featured-projects-header.svg)
+
+</div>
+
+<div align="center">
 
 <table>
 <tr>
@@ -78,6 +85,7 @@
 </tr>
 </table>
 
+</div>
 ---
 
 <div align="center">
