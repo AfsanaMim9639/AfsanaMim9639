@@ -44,13 +44,21 @@
 
 ---
 
-## 🏆 GitHub Trophies
-
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=AfsanaMim9639&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1&column=7&bg_color=0D1117&title_color=00D9FF&text_color=ffffff&border_color=014c75" alt="GitHub Trophies"/>
+![Featured Projects](featured-projects-header.svg)
 
 </div>
+
+<img src="https://raw.githubusercontent.com/AfsanaMim9639/AfsanaMim9639/main/assets/bullet.svg" width="20"/> &nbsp; 🤖 [Deep Learning & Generative AI](https://github.com/AfsanaMim9639/Deep-Learning-Generative-AI)
+
+<img src="https://raw.githubusercontent.com/AfsanaMim9639/AfsanaMim9639/main/assets/bullet.svg" width="20"/> &nbsp; 📊 [Machine Learning Projects](https://github.com/AfsanaMim9639/Machine-Learning-Projects)
+
+<img src="https://raw.githubusercontent.com/AfsanaMim9639/AfsanaMim9639/main/assets/bullet.svg" width="20"/> &nbsp; 📝 [ML Assignment Collection](https://github.com/AfsanaMim9639/ML-Assignment)
+
+<img src="https://raw.githubusercontent.com/AfsanaMim9639/AfsanaMim9639/main/assets/bullet.svg" width="20"/> &nbsp; 🏥 [CareNest - Healthcare Management System](https://github.com/AfsanaMim9639/carenest)
+
+<img src="https://raw.githubusercontent.com/AfsanaMim9639/AfsanaMim9639/main/assets/bullet.svg" width="20"/> &nbsp; 💻 [TechHub - Technology Platform](https://github.com/AfsanaMim9639/techHub)
 
 ---
 
