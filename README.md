@@ -3,6 +3,7 @@
 ![Banner](banner.svg)
 
 </div>
+
 ---
 
 ![About Me](about-me-section.svg)
