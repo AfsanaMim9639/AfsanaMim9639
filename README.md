@@ -13,8 +13,6 @@
 ---
 ![Skills-icons](skills_update-icons.svg)
 ---
-
-
 <div align="center">
 <img src="connect.svg" alt="Connect with me">
 <table>
