@@ -13,9 +13,12 @@
 ---
 ![Skills-icons](skills-icons.svg)
 ---
+
 <div align="center">
 ![Connect with me](connect.svg)
 </div>
+
+
 <div align="center">
 
 <table>
@@ -197,9 +200,12 @@
 
 </div>
 ---
+
 <div align="center">
 ![Random Dev Quote](random.svg)
 </div>
+
+
 <div align="center">
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight&border_radius=10)
