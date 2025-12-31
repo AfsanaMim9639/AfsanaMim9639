@@ -11,7 +11,7 @@
 ---
 ![Current Activities](current-activities.svg)
 ---
-![Skills-icons](skills-icons.svg)
+![Skills-icons](skills_update-icons.svg)
 ---
 
 
