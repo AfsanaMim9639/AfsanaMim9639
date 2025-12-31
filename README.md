@@ -4,11 +4,17 @@
 
 </div>
 ---
+
 ![About Me](about-me-section.svg)
+
 ---
+
 ![Current Activities](current-activities.svg)
+
 ---
+
 ![Skills-icons](skills_update-icons.svg)
+
 ---
 
 <div align="center">
