@@ -204,9 +204,10 @@
 ---
 
 <div align="center">
-![Random Dev Quote](random.svg)
-</div>
 
+<img src="random.svg" alt="Random Dev Quote">
+
+</div>
 
 <div align="center">
 
