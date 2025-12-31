@@ -113,26 +113,32 @@
 </div>
 
 ---
----
 
-### 🌍 EcoTrack - Environmental Monitoring
-[![EcoTrack](https://github-readme-stats.vercel.app/api/pin/?username=AfsanaMim9639&repo=ecotrack-client&theme=tokyonight&border_radius=10&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff&border_color=014c75)](https://github.com/AfsanaMim9639/ecotrack-client)
+<div align="center">
 
-**🔗 Live Link:** [EcoTrack Live](https://ecotrack-app.web.app)
+![eTuitionBD Header](etuition-header.svg)
 
-**💻 Technologies:** React, Node.js, MongoDB, Chart.js, Leaflet Maps, Tailwind CSS
+</div>
 
-**✨ Key Features:**
-- 🌱 Track environmental data and pollution levels
-- 📊 Data visualization with interactive charts
-- 🗺️ Location-based environmental monitoring
-- 📱 Responsive design for mobile and desktop
-- 🔔 Real-time alerts for environmental hazards
+<div align="center">
+
+**[🔗 Live Demo](your-live-link)** | **[📂 Client Repo](https://github.com/AfsanaMim9639/eTuition-client)** | **[📂 Server Repo](your-server-repo)**
+
+</div>
+
+<div align="center">
+
+![eTuitionBD Screenshot](etuition.png)
+
+</div>
+
+<div align="center">
+
+![eTuitionBD Info](etuition-info.svg)
 
 </div>
 
 ---
-
 ## 💡 Random Dev Quote
 
 <div align="center">
