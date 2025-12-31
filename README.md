@@ -18,44 +18,23 @@
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afsana-mim-878638193/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AfsanaMim9639)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/afsana.mim.453404)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801949009639)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/afsanamim0944)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:afsanamim813@gmail.com)
-
-</div>
-
----
-
-**Alternative Animated Style:**
-
-<div align="center">
-
 <table>
 <tr>
 <td align="center" width="150">
 <a href="https://www.linkedin.com/in/afsana-mim-878638193/">
-<img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" height="40"/>
-<br/>
-<sub><b>LinkedIn</b></sub>
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="60" width="60" style="border-radius: 50%;"/>
 </a>
 </td>
 
 <td align="center" width="150">
 <a href="https://github.com/AfsanaMim9639">
-<img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github&logoColor=white" height="40"/>
-<br/>
-<sub><b>GitHub</b></sub>
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="GitHub" height="60" width="60" style="border-radius: 50%;"/>
 </a>
 </td>
 
 <td align="center" width="150">
 <a href="https://www.facebook.com/afsana.mim.453404">
-<img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" height="40"/>
-<br/>
-<sub><b>Facebook</b></sub>
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="Facebook" height="60" width="60" style="border-radius: 50%;"/>
 </a>
 </td>
 </tr>
@@ -63,25 +42,19 @@
 <tr>
 <td align="center" width="150">
 <a href="https://wa.me/8801949009639">
-<img src="https://img.shields.io/badge/-WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" height="40"/>
-<br/>
-<sub><b>WhatsApp</b></sub>
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/whatsapp.svg" alt="WhatsApp" height="60" width="60" style="border-radius: 50%;"/>
 </a>
 </td>
 
 <td align="center" width="150">
 <a href="https://discord.com/users/afsanamim0944">
-<img src="https://img.shields.io/badge/-Discord-5865F2?style=flat-square&logo=discord&logoColor=white" height="40"/>
-<br/>
-<sub><b>Discord</b></sub>
+<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord" height="60" width="60" style="border-radius: 50%;"/>
 </a>
 </td>
 
 <td align="center" width="150">
 <a href="mailto:afsanamim813@gmail.com">
-<img src="https://img.shields.io/badge/-Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" height="40"/>
-<br/>
-<sub><b>Gmail</b></sub>
+<img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Gmail" height="60" width="60" style="border-radius: 50%;"/>
 </a>
 </td>
 </tr>
@@ -89,20 +62,6 @@
 
 </div>
 
----
-
-**Simple Text Links Style:**
-
-<div align="center">
-
-📧 **Email:** [afsanamim813@gmail.com](mailto:afsanamim813@gmail.com)  
-💼 **LinkedIn:** [Afsana Mim](https://www.linkedin.com/in/afsana-mim-878638193/)  
-💻 **GitHub:** [@AfsanaMim9639](https://github.com/AfsanaMim9639)  
-📘 **Facebook:** [Afsana Mim](https://www.facebook.com/afsana.mim.453404)  
-💬 **WhatsApp:** [+880 194 900 9639](https://wa.me/8801949009639)  
-🎮 **Discord:** afsanamim0944
-
-</div>
 ---
 
 <div align="center">
