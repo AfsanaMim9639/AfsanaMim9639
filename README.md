@@ -137,9 +137,22 @@
 ![eTuitionBD Info](etuition-info.svg)
 
 </div>
-
 ---
-## 💡 Random Dev Quote
+
+<div align="center">
+  
+![TechHub Header](techhub-header.svg)
+
+**[🔗 Live Demo](https://tech-hub-gamma-five.vercel.app/)** | **[📂 Repository]([your-repo-link](https://github.com/AfsanaMim9639/techHub.git)**
+
+![TechHub Screenshot](your-screenshot.png)
+
+![TechHub Info](techhub-info.svg)
+
+</div>
+---
+
+![Random Dev Quote](random.svg)
 
 <div align="center">
 
