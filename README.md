@@ -122,7 +122,7 @@
 
 <div align="center">
 
-**[🔗 Live Demo](your-live-link)** | **[📂 Client Repo](https://github.com/AfsanaMim9639/eTuition-client)** | **[📂 Server Repo](your-server-repo)**
+**[🔗 Live Demo]([your-live-link](https://etuitionbd-b9b1d.web.app/)** | **[📂 Client Repo](https://github.com/AfsanaMim9639/eTuition-client)** 
 
 </div>
 
