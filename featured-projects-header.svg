@@ -42,7 +42,7 @@
   
   <!-- Title Text -->
   <text x="70" y="58" font-family="'Arial Black', sans-serif" font-size="32" font-weight="bold" fill="url(#titleGradient)" filter="url(#glow)">
-    Featured Projects
+    Pinned Repositories
   </text>
   
   <!-- Decorative Corner Dots -->
