@@ -24,28 +24,42 @@
   </rect>
   
   <!-- Project Overview Section -->
-  <text x="50" y="60" font-family="'Arial Black', sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">🎯 Project Purpose</text>
+  <text x="50" y="60" font-family="Arial Black, sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">🎯 Project Purpose</text>
   
-  <foreignObject x="50" y="80" width="900" height="140">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; color: #ffffff; line-height: 1.8;">
-      eTuitionBD is a full-stack tuition management platform connecting students with qualified tutors. It solves the real problem of finding verified tutors through automated workflows, transparent Stripe payments, digital class tracking, and structured communication. Students post requirements, tutors apply, and admins monitor all activities efficiently.
-    </div>
-  </foreignObject>
+  <text x="50" y="100" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
+    <tspan x="50" dy="0">eTuitionBD is a full-stack tuition management platform connecting students</tspan>
+    <tspan x="50" dy="25">with qualified tutors. It solves the real problem of finding verified tutors</tspan>
+    <tspan x="50" dy="25">through automated workflows, transparent Stripe payments, digital class</tspan>
+    <tspan x="50" dy="25">tracking, and structured communication. Students post requirements,</tspan>
+    <tspan x="50" dy="25">tutors apply, and admins monitor all activities efficiently.</tspan>
+  </text>
   
   <!-- Technologies Section -->
-  <text x="50" y="260" font-family="'Arial Black', sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">🚀 Technology Stack</text>
+  <text x="50" y="260" font-family="Arial Black, sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">🚀 Technology Stack</text>
   
-  <foreignObject x="50" y="280" width="900" height="130">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; color: #ffffff; line-height: 2.0;">
-      <strong style="color: #00D9FF;">Frontend:</strong> React.js, React Router, Tailwind CSS, DaisyUI, Framer Motion<br/>
-      <strong style="color: #00D9FF;">Backend:</strong> Node.js, Express.js, RESTful API<br/>
-      <strong style="color: #00D9FF;">Database:</strong> MongoDB, Mongoose | <strong style="color: #00D9FF;">Auth:</strong> Firebase, JWT, bcrypt<br/>
-      <strong style="color: #00D9FF;">Payment:</strong> Stripe Integration | <strong style="color: #00D9FF;">Hosting:</strong> Vercel, MongoDB Atlas
-    </div>
-  </foreignObject>
+  <text x="50" y="295" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
+    <tspan x="50" dy="0" fill="#00D9FF" font-weight="bold">Frontend:</tspan>
+    <tspan fill="#ffffff"> React.js, React Router, Tailwind CSS, DaisyUI, Framer Motion</tspan>
+  </text>
+  <text x="50" y="325" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
+    <tspan x="50" dy="0" fill="#00D9FF" font-weight="bold">Backend:</tspan>
+    <tspan fill="#ffffff"> Node.js, Express.js, RESTful API</tspan>
+  </text>
+  <text x="50" y="355" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
+    <tspan x="50" dy="0" fill="#00D9FF" font-weight="bold">Database:</tspan>
+    <tspan fill="#ffffff"> MongoDB, Mongoose | </tspan>
+    <tspan fill="#00D9FF" font-weight="bold">Auth:</tspan>
+    <tspan fill="#ffffff"> Firebase, JWT, bcrypt</tspan>
+  </text>
+  <text x="50" y="385" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
+    <tspan x="50" dy="0" fill="#00D9FF" font-weight="bold">Payment:</tspan>
+    <tspan fill="#ffffff"> Stripe Integration | </tspan>
+    <tspan fill="#00D9FF" font-weight="bold">Hosting:</tspan>
+    <tspan fill="#ffffff"> Vercel, MongoDB Atlas</tspan>
+  </text>
   
   <!-- Key Features Section -->
-  <text x="50" y="450" font-family="'Arial Black', sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">✨ Core Features</text>
+  <text x="50" y="450" font-family="Arial Black, sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">✨ Core Features</text>
   
   <!-- Feature 1 -->
   <g transform="translate(70, 480)">
@@ -56,7 +70,7 @@
       <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite"/>
     </circle>
   </g>
-  <text x="90" y="485" font-family="Arial" font-size="16" fill="#ffffff">
+  <text x="90" y="485" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
     Multi-role Authentication - Students, Tutors, Admins with JWT and Google OAuth
   </text>
   
@@ -69,7 +83,7 @@
       <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.3s"/>
     </circle>
   </g>
-  <text x="90" y="525" font-family="Arial" font-size="16" fill="#ffffff">
+  <text x="90" y="525" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
     Student Dashboard - Post tuitions, manage applications, track payments, view profiles
   </text>
   
@@ -82,7 +96,7 @@
       <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.6s"/>
     </circle>
   </g>
-  <text x="90" y="565" font-family="Arial" font-size="16" fill="#ffffff">
+  <text x="90" y="565" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
     Tutor Dashboard - Apply for tuitions, manage ongoing classes, track revenue history
   </text>
   
@@ -95,8 +109,8 @@
       <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.9s"/>
     </circle>
   </g>
-  <text x="90" y="605" font-family="Arial" font-size="16" fill="#ffffff">
-    Admin Panel - User management, tuition oversight, analytics with charts &amp; reports
+  <text x="90" y="605" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
+    Admin Panel - User management, tuition oversight, analytics with charts and reports
   </text>
   
   <!-- Feature 5 -->
@@ -108,7 +122,7 @@
       <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="1.2s"/>
     </circle>
   </g>
-  <text x="90" y="645" font-family="Arial" font-size="16" fill="#ffffff">
+  <text x="90" y="645" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
     Stripe Payment Integration - Secure checkout, 10% platform fee, transaction history
   </text>
   
@@ -121,8 +135,8 @@
       <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="1.5s"/>
     </circle>
   </g>
-  <text x="90" y="685" font-family="Arial" font-size="16" fill="#ffffff">
-    Advanced Search &amp; Filter - Subject, location, class, tutoring type, salary range
+  <text x="90" y="685" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
+    Advanced Search and Filter - Subject, location, class, tutoring type, salary range
   </text>
   
   <!-- Feature 7 -->
@@ -134,7 +148,7 @@
       <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="1.8s"/>
     </circle>
   </g>
-  <text x="90" y="725" font-family="Arial" font-size="16" fill="#ffffff">
+  <text x="90" y="725" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
     Real-time Notifications - Toast alerts for actions, status updates, payment confirmations
   </text>
   
@@ -147,36 +161,49 @@
       <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="2.1s"/>
     </circle>
   </g>
-  <text x="90" y="765" font-family="Arial" font-size="16" fill="#ffffff">
+  <text x="90" y="765" font-family="Arial, sans-serif" font-size="16" fill="#ffffff">
     Responsive Design - Framer Motion animations, glassmorphism, neon theme with glow effects
   </text>
   
   <!-- Security Features Section -->
-  <text x="50" y="820" font-family="'Arial Black', sans-serif" font-size="22" fill="#39FF14" font-weight="bold">🔒 Security Features</text>
+  <text x="50" y="820" font-family="Arial Black, sans-serif" font-size="22" fill="#39FF14" font-weight="bold">🔒 Security Features</text>
   
-  <foreignObject x="50" y="840" width="900" height="80">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 15px; color: #ffffff; line-height: 1.7;">
-      <strong style="color: #39FF14;">JWT Authentication</strong> • <strong style="color: #39FF14;">Password Hashing (bcrypt)</strong> • <strong style="color: #39FF14;">Protected API Routes</strong> • <strong style="color: #39FF14;">HTTP-only Cookies</strong> • <strong style="color: #39FF14;">CORS Configuration</strong> • <strong style="color: #39FF14;">Environment Variables</strong> • <strong style="color: #39FF14;">Secure Stripe Processing</strong>
-    </div>
-  </foreignObject>
+  <text x="50" y="855" font-family="Arial, sans-serif" font-size="15" fill="#ffffff">
+    <tspan fill="#39FF14" font-weight="bold">JWT Authentication</tspan>
+    <tspan fill="#ffffff"> • </tspan>
+    <tspan fill="#39FF14" font-weight="bold">Password Hashing (bcrypt)</tspan>
+    <tspan fill="#ffffff"> • </tspan>
+    <tspan fill="#39FF14" font-weight="bold">Protected API Routes</tspan>
+  </text>
+  <text x="50" y="880" font-family="Arial, sans-serif" font-size="15" fill="#ffffff">
+    <tspan fill="#39FF14" font-weight="bold">HTTP-only Cookies</tspan>
+    <tspan fill="#ffffff"> • </tspan>
+    <tspan fill="#39FF14" font-weight="bold">CORS Configuration</tspan>
+    <tspan fill="#ffffff"> • </tspan>
+    <tspan fill="#39FF14" font-weight="bold">Environment Variables</tspan>
+  </text>
+  <text x="50" y="905" font-family="Arial, sans-serif" font-size="15" fill="#ffffff">
+    <tspan fill="#39FF14" font-weight="bold">Secure Stripe Processing</tspan>
+  </text>
   
   <!-- Admin Analytics Section -->
-  <text x="50" y="960" font-family="'Arial Black', sans-serif" font-size="22" fill="#FF10F0" font-weight="bold">📊 Admin Analytics</text>
+  <text x="50" y="960" font-family="Arial Black, sans-serif" font-size="22" fill="#FF10F0" font-weight="bold">📊 Admin Analytics</text>
   
-  <foreignObject x="50" y="980" width="900" height="60">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size="15px; color: #ffffff; line-height: 1.7;">
-      User statistics • Tuition tracking • Revenue charts • Monthly trends • Payment distribution • Status analytics • Growth metrics
-    </div>
-  </foreignObject>
+  <text x="50" y="995" font-family="Arial, sans-serif" font-size="15" fill="#ffffff">
+    User statistics • Tuition tracking • Revenue charts • Monthly trends • Payment distribution
+  </text>
+  <text x="50" y="1015" font-family="Arial, sans-serif" font-size="15" fill="#ffffff">
+    Status analytics • Growth metrics
+  </text>
   
   <!-- Bottom Badge -->
-  <g transform="translate(200, 980)">
-    <rect width="600" height="50" rx="25" fill="#00D9FF" opacity="0.15"/>
-    <rect x="2" y="2" width="596" height="46" rx="23" fill="none" stroke="#00D9FF" stroke-width="2">
-      <animate attributeName="stroke" values="#00D9FF;#014c75;#00D9FF" dur="3s" repeatCount="indefinite"/>
-    </rect>
-    <text x="300" y="33" font-family="Arial Black" font-size="14" fill="#00D9FF" text-anchor="middle" font-weight="bold">Connecting Students &amp; Tutors for Quality Education</text>
-  </g>
+  <rect x="200" y="960" width="600" height="50" rx="25" fill="#00D9FF" opacity="0.15"/>
+  <rect x="202" y="962" width="596" height="46" rx="23" fill="none" stroke="#00D9FF" stroke-width="2">
+    <animate attributeName="stroke" values="#00D9FF;#014c75;#00D9FF" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <text x="500" y="990" font-family="Arial Black, sans-serif" font-size="14" fill="#00D9FF" text-anchor="middle" font-weight="bold">
+    Connecting Students and Tutors for Quality Education
+  </text>
   
   <!-- Decorative Corner Elements -->
   <circle cx="20" cy="20" r="5" fill="#00D9FF" opacity="0.6">
