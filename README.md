@@ -143,9 +143,9 @@
   
 ![TechHub Header](techhub-header.svg)
 
-**[🔗 Live Demo](https://tech-hub-gamma-five.vercel.app/)** | **[📂 Repository]([your-repo-link](https://github.com/AfsanaMim9639/techHub.git)**
+**[🔗 Live Demo](https://tech-hub-gamma-five.vercel.app/)** | **[📂 Repository]([your-repo-link](https://github.com/AfsanaMim9639/techHub.git))**
 
-![TechHub Screenshot](your-screenshot.png)
+![TechHub Screenshot](techhub.png)
 
 ![TechHub Info](techhub-info.svg)
 
