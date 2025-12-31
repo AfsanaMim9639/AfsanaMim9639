@@ -1,0 +1,220 @@
+<svg width="1000" height="1400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1">
+        <animate attributeName="stop-color" values="#00D9FF;#014c75;#00D9FF" dur="3s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#014c75;stop-opacity:1">
+        <animate attributeName="stop-color" values="#014c75;#00D9FF;#014c75" dur="3s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:0.4">
+        <animate attributeName="stop-color" values="#00D9FF;#014c75;#00D9FF" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" style="stop-color:#014c75;stop-opacity:0.4">
+        <animate attributeName="stop-color" values="#014c75;#00D9FF;#014c75" dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#001927;stop-opacity:0.95"/>
+      <stop offset="100%" style="stop-color:#00111a;stop-opacity:0.95"/>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect x="3" y="3" width="994" height="1394" rx="20" fill="url(#bgGradient)"/>
+  
+  <!-- Animated Border -->
+  <rect x="3" y="3" width="994" height="1394" rx="20" fill="none" stroke="url(#borderGradient)" stroke-width="3">
+    <animate attributeName="stroke-dasharray" values="0 4000; 4000 0; 0 4000" dur="8s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Header Section with Icon -->
+  <g transform="translate(50, 40)">
+    <!-- Medical Cross Icon -->
+    <rect x="12" y="0" width="16" height="40" rx="3" fill="#00D9FF">
+      <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="12" width="40" height="16" rx="3" fill="#00D9FF">
+      <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </rect>
+    <circle cx="20" cy="20" r="8" fill="#014c75"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="120" y="70" font-family="'Arial Black', sans-serif" font-size="38" font-weight="bold" fill="url(#titleGradient)" filter="url(#glow)">
+    CareNest - Healthcare Management
+  </text>
+  
+  <!-- Screenshot Placeholder -->
+  <rect x="50" y="110" width="900" height="400" rx="10" fill="#0D1117" stroke="#014c75" stroke-width="2"/>
+  <text x="500" y="300" font-family="Arial" font-size="24" fill="#00D9FF" text-anchor="middle" opacity="0.6">
+    [Project Screenshot Here]
+  </text>
+  <text x="500" y="330" font-family="Arial" font-size="16" fill="#ffffff" text-anchor="middle" opacity="0.5">
+    Add your screenshot image above this SVG
+  </text>
+  
+  <!-- Live Demo Button -->
+  <g transform="translate(300, 540)">
+    <rect width="180" height="50" rx="25" fill="#00D9FF" opacity="0.2">
+      <animate attributeName="opacity" values="0.2;0.4;0.2" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="2" y="2" width="176" height="46" rx="23" fill="none" stroke="#00D9FF" stroke-width="2">
+      <animate attributeName="stroke" values="#00D9FF;#014c75;#00D9FF" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="90" y="33" font-family="Arial Black" font-size="16" fill="#00D9FF" text-anchor="middle" font-weight="bold">🔗 Live Demo</text>
+  </g>
+  
+  <!-- Repository Button -->
+  <g transform="translate(520, 540)">
+    <rect width="180" height="50" rx="25" fill="#00D9FF" opacity="0.2">
+      <animate attributeName="opacity" values="0.2;0.4;0.2" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+    </rect>
+    <rect x="2" y="2" width="176" height="46" rx="23" fill="none" stroke="#00D9FF" stroke-width="2">
+      <animate attributeName="stroke" values="#00D9FF;#014c75;#00D9FF" dur="3s" repeatCount="indefinite" begin="0.5s"/>
+    </rect>
+    <text x="90" y="33" font-family="Arial Black" font-size="16" fill="#00D9FF" text-anchor="middle" font-weight="bold">📂 Repository</text>
+  </g>
+  
+  <!-- Divider -->
+  <line x1="50" y1="630" x2="950" y2="630" stroke="#00D9FF" stroke-width="2" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.5;0.2" dur="3s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Project Overview Section -->
+  <text x="50" y="680" font-family="'Arial Black', sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">📝 Project Overview</text>
+  
+  <foreignObject x="50" y="700" width="900" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; color: #ffffff; line-height: 1.8;">
+      CareNest is a comprehensive healthcare management platform connecting users with essential caregiving services including baby care, elderly care, and sick patient care. Features dynamic booking, location-based services, secure authentication, and automated email notifications.
+    </div>
+  </foreignObject>
+  
+  <!-- Technologies Section -->
+  <text x="50" y="860" font-family="'Arial Black', sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">💻 Technologies Used</text>
+  
+  <foreignObject x="50" y="880" width="900" height="80">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 16px; color: #ffffff; line-height: 1.8;">
+      <strong style="color: #00D9FF;">Frontend:</strong> Next.js 14, React, Tailwind CSS<br/>
+      <strong style="color: #00D9FF;">Backend:</strong> Node.js, Next.js API Routes<br/>
+      <strong style="color: #00D9FF;">Database:</strong> MongoDB, Mongoose | <strong style="color: #00D9FF;">Auth:</strong> JWT, bcrypt | <strong style="color: #00D9FF;">Payment:</strong> Stripe
+    </div>
+  </foreignObject>
+  
+  <!-- Key Features Section -->
+  <text x="50" y="1000" font-family="'Arial Black', sans-serif" font-size="24" fill="#00D9FF" font-weight="bold">🚀 Key Features</text>
+  
+  <!-- Feature 1 -->
+  <g transform="translate(70, 1030)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <text x="90" y="1035" font-family="Arial" font-size="16" fill="#ffffff">
+    <tspan fill="#ffffff">Dynamic Service Booking with multi-step process and real-time cost calculation</tspan>
+  </text>
+  
+  <!-- Feature 2 -->
+  <g transform="translate(70, 1070)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+    </circle>
+  </g>
+  <text x="90" y="1075" font-family="Arial" font-size="16" fill="#ffffff">
+    <tspan fill="#ffffff">Location-Based Services covering divisions, districts, and specific areas</tspan>
+  </text>
+  
+  <!-- Feature 3 -->
+  <g transform="translate(70, 1110)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+    </circle>
+  </g>
+  <text x="90" y="1115" font-family="Arial" font-size="16" fill="#ffffff">
+    <tspan fill="#ffffff">Secure JWT Authentication with NID verification and password validation</tspan>
+  </text>
+  
+  <!-- Feature 4 -->
+  <g transform="translate(70, 1150)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="0.9s"/>
+    </circle>
+  </g>
+  <text x="90" y="1155" font-family="Arial" font-size="16" fill="#ffffff">
+    <tspan fill="#ffffff">Automated Email Notifications with invoice generation on booking confirmation</tspan>
+  </text>
+  
+  <!-- Feature 5 -->
+  <g transform="translate(70, 1190)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="1.2s"/>
+    </circle>
+  </g>
+  <text x="90" y="1195" font-family="Arial" font-size="16" fill="#ffffff">
+    <tspan fill="#ffffff">SEO Optimized with metadata implementation for better search visibility</tspan>
+  </text>
+  
+  <!-- Feature 6 -->
+  <g transform="translate(70, 1230)">
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#00D9FF" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+    <circle cx="0" cy="0" r="3" fill="#00D9FF">
+      <animate attributeName="fill" values="#00D9FF;#014c75;#00D9FF" dur="2s" repeatCount="indefinite" begin="1.5s"/>
+    </circle>
+  </g>
+  <text x="90" y="1235" font-family="Arial" font-size="16" fill="#ffffff">
+    <tspan fill="#ffffff">Stripe Payment Integration for secure transactions (Optional feature)</tspan>
+  </text>
+  
+  <!-- Bottom Badge -->
+  <g transform="translate(350, 1300)">
+    <rect width="300" height="60" rx="30" fill="#00D9FF" opacity="0.15"/>
+    <rect x="2" y="2" width="296" height="56" rx="28" fill="none" stroke="#00D9FF" stroke-width="2">
+      <animate attributeName="stroke" values="#00D9FF;#014c75;#00D9FF" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="150" y="28" font-family="Arial Black" font-size="16" fill="#00D9FF" text-anchor="middle" font-weight="bold">Healthcare Management</text>
+    <text x="150" y="48" font-family="Arial" font-size="14" fill="#ffffff" text-anchor="middle">Next.js • MongoDB • Vercel</text>
+  </g>
+  
+  <!-- Decorative Corner Elements -->
+  <circle cx="20" cy="20" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="20" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="20" cy="1380" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle cx="980" cy="1380" r="5" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </circle>
+</svg>
