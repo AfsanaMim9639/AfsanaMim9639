@@ -60,27 +60,15 @@
 
 ▸  [TechHub - Technology Platform](https://github.com/AfsanaMim9639/techHub)
 
----
-
-## 🎯 Featured Projects
-
 <div align="center">
 
-### 🏥 CareNest - Healthcare Management System
-[![CareNest](https://github-readme-stats.vercel.app/api/pin/?username=AfsanaMim9639&repo=carenest&theme=tokyonight&border_radius=10&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff&border_color=014c75)](https://github.com/AfsanaMim9639/carenest)
+<!-- Screenshot first -->
+![CareNest Screenshot](carenest.png)
 
-**🔗 Live Link:** [CareNest Live](https://carenest-demo.web.app)
+<!-- Then the SVG card below -->
+![CareNest Details](carenest-card.svg)
 
-**💻 Technologies:** React, Node.js, Express.js, MongoDB, Firebase, Tailwind CSS
-
-**✨ Key Features:**
-- 🏥 Complete hospital management system with appointment booking
-- 👨‍⚕️ Doctor and patient dashboards with real-time updates
-- 💳 Secure payment integration for medical services
-- 📊 Analytics dashboard for hospital administrators
-- 🔐 JWT-based authentication and authorization
-
----
+</div>
 
 ### 📚 eTuition - Online Learning Platform
 [![eTuition](https://github-readme-stats.vercel.app/api/pin/?username=AfsanaMim9639&repo=eTuition-client&theme=tokyonight&border_radius=10&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff&border_color=014c75)](https://github.com/AfsanaMim9639/eTuition-client)
