@@ -88,20 +88,31 @@
 
 ---
 
-### 📚 eTuition - Online Learning Platform
-[![eTuition](https://github-readme-stats.vercel.app/api/pin/?username=AfsanaMim9639&repo=eTuition-client&theme=tokyonight&border_radius=10&bg_color=0D1117&title_color=00D9FF&icon_color=00D9FF&text_color=ffffff&border_color=014c75)](https://github.com/AfsanaMim9639/eTuition-client)
+<div align="center">
 
-**🔗 Live Link:** [eTuition Live](https://etuition-platform.web.app)
+![EcoTrack Header](ecotrack-header.svg)
 
-**💻 Technologies:** React, Node.js, MongoDB, Express.js, Stripe, Firebase
+</div>
 
-**✨ Key Features:**
-- 📖 Interactive course management system
-- 🎓 Student enrollment and progress tracking
-- 💰 Payment gateway integration for course purchases
-- 🎥 Video streaming for online classes
-- 📝 Assignment submission and grading system
+<div align="center">
 
+**[🔗 Live Demo](https://ecotrack-71dcf.web.app/)** | **[📂 Repository](https://github.com/AfsanaMim9639/ecotrack-client)**
+
+</div>
+
+<div align="center">
+
+![EcoTrack Screenshot](echotrack.png)
+
+</div>
+
+<div align="center">
+
+![EcoTrack Info](ecotrack-info.svg)
+
+</div>
+
+---
 ---
 
 ### 🌍 EcoTrack - Environmental Monitoring
