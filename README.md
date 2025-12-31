@@ -41,24 +41,42 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=AfsanaMim9639&bg_color=0d1117&color=00d9ff&line=014c75&point=ffffff&area=true&hide_border=false&border_color=014c75&custom_title=Contribution%20Graph%20-%20754%20Total%20Contributions" alt="Contribution Graph"/>
 
 </div>
-
 ---
+## 🚀 Featured Projects
 
-<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-![Featured Projects](featured-projects-header.svg)
+### 🏥 Full-Stack Web Applications
+- 🏥 **[CareNest](https://github.com/AfsanaMim9639/carenest)**  
+  Healthcare Management System
+  
+- 💰 **[EchoTrack](https://github.com/AfsanaMim9639/EchoTrack)**  
+  Expense Tracker Application
+  
+- 📚 **[eTuitionBD](https://github.com/AfsanaMim9639/eTuitionBD)**  
+  Tuition Management Platform
+  
+- 🛒 **[TechHub](https://github.com/AfsanaMim9639/techHub)**  
+  E-commerce Technology Platform
 
-</div>
+</td>
+<td width="50%">
 
-▸  [Deep Learning & Generative AI](https://github.com/AfsanaMim9639/Deep-Learning-Generative-AI)
+### 🤖 AI & Machine Learning
+- 🧠 **[Deep Learning & Generative AI](https://github.com/AfsanaMim9639/Deep-Learning-Generative-AI)**  
+  Advanced AI/ML Projects
+  
+- 📊 **[Machine Learning Projects](https://github.com/AfsanaMim9639/Machine-Learning-Projects)**  
+  ML Implementations
+  
+- 📝 **[ML Assignment Collection](https://github.com/AfsanaMim9639/ML-Assignment)**  
+  Academic ML Work
 
-▸  [Machine Learning Projects](https://github.com/AfsanaMim9639/Machine-Learning-Projects)
-
-▸  [ML Assignment Collection](https://github.com/AfsanaMim9639/ML-Assignment)
-
-▸  [CareNest - Healthcare Management System](https://github.com/AfsanaMim9639/carenest)
-
-▸  [TechHub - Technology Platform](https://github.com/AfsanaMim9639/techHub)
+</td>
+</tr>
+</table>
 
 ---
 
@@ -162,20 +180,8 @@
 
 ---
 
-## 📈 Visitor Count
-
 <div align="center">
 
-![Visitor Count](https://profile-counter.glitch.me/AfsanaMim9639/count.svg)
-
-</div>
-
----
-
-<div align="center">
-
-### ⭐ Show some love by starring my repositories!
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:014c75,10:014368,20:013b5b,30:01324e,40:012a41,60:002234,80:001927,100:00111a&height=150&section=footer)
+![Footer](footer.svg)
 
 </div>
