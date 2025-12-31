@@ -14,9 +14,8 @@
 ![Skills-icons](skills-icons.svg)
 ---
 
-![Connect with me](connect.svg)
 <div align="center">
-
+![Connect with me](connect.svg)
 <table>
 <tr>
 <td align="center" width="200">
